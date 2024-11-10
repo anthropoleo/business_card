@@ -1,48 +1,57 @@
+---
+layout: default
+title: "Be careful with what you click"
+---
+
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Be careful with what you click</title>
+  <title>{{ page.title }}</title>
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Hacked Jekyll" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Jekyll microtheme that looks like JSON" />
-<meta property="og:description" content="Jekyll microtheme that looks like JSON" />
-<link rel="canonical" href="http://localhost:4000/hacked-jekyll/caution.html" />
-<meta property="og:url" content="http://localhost:4000/hacked-jekyll/caution.html" />
-<meta property="og:site_name" content="Hacked Jekyll" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Hacked Jekyll" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Jekyll microtheme that looks like JSON","headline":"Hacked Jekyll","url":"http://localhost:4000/hacked-jekyll/caution.html"}</script>
-<!-- End Jekyll SEO tag -->
+  <!-- Begin Jekyll SEO tag -->
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/caution.html" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/caution.html" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="{{ page.title }}" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "description": "{{ site.description }}",
+    "headline": "{{ page.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/caution.html"
+  }
+  </script>
+  <!-- End Jekyll SEO tag -->
 
-  <link rel="icon" type="image/x-icon" href="/hacked-jekyll/assets/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/hacked-jekyll/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/hacked-jekyll/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/hacked-jekyll/assets/favicon-16x16.png">
-  <link rel="manifest" href="/hacked-jekyll/assets/site.webmanifest">
-  <link rel="stylesheet" href="/hacked-jekyll/assets/css/normalize.css" />
-  <link rel="stylesheet" href="/hacked-jekyll/assets/css/open-color.css" />
-  <link rel="stylesheet" href="/hacked-jekyll/assets/css/styles.css" />
-  <script src="/hacked-jekyll/assets/js/typed.umd.js"></script>
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/open-color.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+  <script src="{{ '/assets/js/typed.umd.js' | relative_url }}"></script>
 </head>
 
 <body>
   <main>
-
-<div class="error">
-    <h1>!</h1>
-    <p>Be careful where you click</p>
-    <!-- <p class="mt"><a href="http://localhost:4000/hacked-jekyll"></a></p> -->
-</div>
-
+    <div class="error">
+      <h1>!</h1>
+      <p>Be careful where you click</p>
+      <!-- Add a link back to the homepage -->
+      <!-- <p class="mt"><a href="{{ site.baseurl }}/">Go back to home</a></p> -->
+    </div>
   </main>
   <script>
     var typed = new Typed("#typed", {
@@ -55,5 +64,4 @@
     });
   </script>
 </body>
-
 </html>
