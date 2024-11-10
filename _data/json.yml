@@ -26,8 +26,10 @@
 - key: Profiles
   value:
     - value: LinkedIn
-      url: https://www.linkedin.com
+      url: https://www.linkedin.com/in/leandrofalero/
+    - value: GitHub
+      url: https://github.com/anthropoleo
     - value: Instagram
       url: https://www.instagram.com
-    - value: GitHub
-      url: https://github.com
+
+
