@@ -1,0 +1,38 @@
+- key: Name
+  value: Leandro Falero (Leo)
+- key: Description
+  value:
+    - Hi!
+    - Thanks for stopping by 
+    - don't be shy and say 'hi' 
+  typed: true
+- key: CV
+  value: cv.pdf
+  url: /cv.pdf
+- key: Address
+  value:
+    - 
+    - 
+
+- key: Contact
+  value:
+    - key: 
+      value: 
+    - key: Phone
+      value: +1 234 567 890
+    - key: Email
+      value: username@domain.com
+      url: "mailto:username@domain.com"
+- key: Source
+  value: 
+
+- key: Profiles
+  value:
+    - value: Instagram
+      url: https://www.instagram.com
+    - value: LinkedIn
+      url: https://www.linkedin.com
+    - value: StackOverflow
+      url: https://stackoverflow.com
+    - value: GitHub
+      url: https://github.com
