@@ -13,15 +13,15 @@
 
 - key: Contact
   value:
-    - key: 
-      value: 
     - key: Phone
       value: +61 0450 652 ***
     - key: Email
       value: leandrofaleroo@gmail.com
       url: "mailto:leandrofaleroo@gmail.com"
 - key: Secret link
-  value: 
+  value: link
+  url: "/404.html"
+
 
 - key: Profiles
   value:
