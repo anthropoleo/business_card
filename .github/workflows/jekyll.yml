@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gem install bundler -v 1.17.2  
+          gem install bundler -v 2.2.21  
           bundle install
 
       - name: Build site
