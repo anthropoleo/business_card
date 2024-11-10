@@ -6,33 +6,28 @@
     - Thanks for stopping by 
     - don't be shy and say 'hi' 
   typed: true
-- key: CV
-  value: cv.pdf
-  url: /cv.pdf
 - key: Address
   value:
-    - 
-    - 
+    - Gold Coast
+    - Australia
 
 - key: Contact
   value:
     - key: 
       value: 
     - key: Phone
-      value: +1 234 567 890
+      value: +61 0450 652 ***
     - key: Email
-      value: username@domain.com
-      url: "mailto:username@domain.com"
-- key: Source
+      value: leandrofaleroo@gmail.com
+      url: "mailto:leandrofaleroo@gmail.com"
+- key: Secret link
   value: 
 
 - key: Profiles
   value:
-    - value: Instagram
-      url: https://www.instagram.com
     - value: LinkedIn
       url: https://www.linkedin.com
-    - value: StackOverflow
-      url: https://stackoverflow.com
+    - value: Instagram
+      url: https://www.instagram.com
     - value: GitHub
       url: https://github.com
