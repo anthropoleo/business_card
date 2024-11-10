@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://anthropoleo.github.io/hacked-jekyll/sitemap.xml
