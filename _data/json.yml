@@ -18,6 +18,12 @@
     - key: Email
       value: leandrofaleroo@gmail.com
       url: "mailto:leandrofaleroo@gmail.com"
+
+- key: Free app I made for data analysis
+  value: APP
+  url: https://data-explorer-app.streamlit.app/
+
+
 - key: Secret link
   value: link
   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
@@ -25,8 +31,7 @@
 
 - key: Profiles
   value:
-    - value: Free Daata explorer App I made
-      url: https://data-explorer-app.streamlit.app/
+
     - value: LinkedIn
       url: https://www.linkedin.com/in/leandrofalero/
     - value: GitHub
