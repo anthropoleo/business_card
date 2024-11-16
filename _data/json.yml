@@ -25,11 +25,13 @@
 
 - key: Profiles
   value:
+    - value: Free Daata explorer App I made
+      url: https://data-explorer-app.streamlit.app/
     - value: LinkedIn
       url: https://www.linkedin.com/in/leandrofalero/
     - value: GitHub
       url: https://github.com/anthropoleo
-    - value: Instagram
-      url: https://www.instagram.com
+   # - value: Instagram
+    #  url: https://www.instagram.com
 
 
