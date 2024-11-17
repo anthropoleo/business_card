@@ -1,0 +1,16 @@
+current directory: /Users/leo/Documents/Personal/business_card/business_card/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/leo/.rbenv/versions/3.1.6/bin/ruby -I /Users/leo/.rbenv/versions/3.1.6/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/leo/Documents/Personal/business_card/business_card/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241117-5214-ndoorp sitelibdir\=./.gem.20241117-5214-ndoorp clean
+
+current directory: /Users/leo/Documents/Personal/business_card/business_card/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241117-5214-ndoorp sitelibdir\=./.gem.20241117-5214-ndoorp
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/leo/Documents/Personal/business_card/business_card/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241117-5214-ndoorp sitelibdir\=./.gem.20241117-5214-ndoorp install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20241117-5214-ndoorp/racc
