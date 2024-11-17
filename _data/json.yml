@@ -21,9 +21,6 @@
     - key: Email
       value: leandrofaleroo@gmail.com
       url: "mailto:leandrofaleroo@gmail.com"
-    - key: Secret link
-      value: link
-      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     - key: location
       value: Gold Coast, Australia
 
@@ -42,3 +39,11 @@
     #  url: https://www.instagram.com
 
 
+- key: bonus
+  value:
+    - key: Free app I made
+      value: app
+      url: https://data-explorer-app.streamlit.app/
+    - key: secret link   
+      value: link
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ

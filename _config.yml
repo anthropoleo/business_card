@@ -5,6 +5,9 @@ url: "https://anthropoleo.github.io"
 
 theme: hacked-jekyll
 
+# Set this to true to open all links in new tabs
+newtab: true
+
 exclude:
   - LICENSE
   - README.md
