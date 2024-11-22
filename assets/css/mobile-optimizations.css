@@ -20,6 +20,29 @@
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    line-height: 1.6; /* Improved readability */
+    text-align: left; /* Ensure left alignment */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit max width for better readability */
+    margin: 0 auto; /* Center the text */
+  }
+
+  /* Specific improvements for description text */
+  #description-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 10px; /* Add some padding */
+  }
+
+  #description-text {
+    font-size: 16px; /* Slightly larger font for mobile */
+    width: 100%;
+    white-space: normal; /* Allow text to wrap */
+    word-break: break-word;
+    line-height: 1.5;
   }
 }
 
