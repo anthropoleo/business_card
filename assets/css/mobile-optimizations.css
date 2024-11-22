@@ -1,0 +1,36 @@
+/* Additional mobile optimizations */
+@media (max-width: 575px) {
+  body {
+    -webkit-text-size-adjust: 100%; /* Prevent iOS font scaling */
+    touch-action: manipulation; /* Disable double-tap to zoom */
+  }
+  
+  main {
+    padding: 1rem;
+    width: 95%;
+    overflow-x: hidden;
+  }
+
+  #json {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+/* Improve tap target sizes on mobile */
+@media (max-width: 768px) {
+  a {
+    padding: 0.5rem 0;
+    display: inline-block;
+  }
+  
+  .ms {
+    margin-left: 1rem; /* Slightly reduce margin on mobile */
+  }
+}
