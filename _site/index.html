@@ -46,12 +46,18 @@
     "<span class="value">Leandro Falero (Leo)</span>",
   </div>
   
-  <div class="my ms">
+  <div id="description-container">
     <div id="strings">
-      <span>(1/7) Hi!</span><span>(2/7) Thanks for stopping by.</span><span>(3/7) I'm Leo a data scientist based on the Gold Coast.</span><span>(4/7) I have a passion for building solutions and tackling complex problems.</span><span>(5/7) I am particularly interested in the applications of artificial intelligence</span><span>(6/7) and enjoy collaborating with AI technologies to develop innovative & fun solutions.</span><span>(7/7) don't be shy and say 'hi'!</span>
+      <span class="description-line">(1/7) Hi!</span>
+      <span class="description-line">(2/7) Thanks for stopping by.</span>
+      <span class="description-line">(3/7) I'm Leo a data scientist based on the Gold Coast.</span>
+      <span class="description-line">(4/7) I have a passion for building solutions and tackling complex problems.</span>
+      <span class="description-line">(5/7) I am particularly interested in the applications of artificial intelligence</span>
+      <span class="description-line">(6/7) and enjoy collaborating with AI technologies to develop innovative & fun solutions.</span>
+      <span class="description-line">(7/7) don't be shy and say 'hi'!</span>
     </div>
     "<span class="key">Description</span>":
-    "<span class="value"><span id="typed"></span></span>",
+    "<span class="value"><span id="typed" class="description-text"></span></span>",
   </div>
   
   <div class="my ms">
@@ -106,6 +112,12 @@
       backDelay: 1000,
       loop: true,
       smartBackspace: true,
+      contentType: 'html', // Allow HTML content
+      preStringTyped: function(pos, self) {
+        // Add responsive class to current string
+        document.querySelectorAll('.description-line').forEach(el => el.classList.remove('current-line'));
+        document.querySelectorAll('.description-line')[pos].classList.add('current-line');
+      }
     });
   </script>
 </body>
