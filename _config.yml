@@ -1,11 +1,11 @@
 title: click the secret link
-description: 
+description: Experienced Data Scientist based in Gold Coast, specialising in AI and data analysis. Transforming complex data into actionable insights.
 baseurl: "/hacked-jekyll" 
 url: "https://anthropoleo.github.io"  
 
 theme: hacked-jekyll
 
-# Set this to true to open all links in new tabs
+# Setting this to true to open all links in new tabs
 newtab: true
 
 exclude:
@@ -16,6 +16,20 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+
+# SEO Tag configuration
+title: Leo's Data Science Portfolio
+tagline: AI and Data Analysis Expertise from Gold Coast
+author: Leo
+
+# Sitemap configuration
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      sitemap: true
 
 sass:
   sourcemap: never
