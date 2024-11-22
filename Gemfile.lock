@@ -259,6 +259,9 @@ PLATFORMS
 
 DEPENDENCIES
   hacked-jekyll (~> 3.0)
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    2.5.23
