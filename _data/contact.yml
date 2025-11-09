@@ -1,0 +1,26 @@
+# Contact page data - this controls what shows up on my contact.md page
+# I've masked my phone number for privacy but kept my email visible
+# Good to have all my contact details in one place for potential clients
+
+- key: Contact
+  value: Get in touch with me
+
+- key: Details
+  value:
+    - key: Email
+      value: leandrofaleroo@gmail.com
+      url: "mailto:leandrofaleroo@gmail.com"
+    - key: Phone
+      value: +61 0450 652 163
+    - key: Location
+      value: Gold Coast, Australia
+
+- key: Social Media
+  value:
+    - value: LinkedIn
+      url: https://www.linkedin.com/in/leandrofalero/
+    - value: GitHub
+      url: https://github.com/anthropoleo
+
+- key: Message
+  value: I'm always keen to chat about data science, AI, or potential collaborations
