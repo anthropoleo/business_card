@@ -3,12 +3,14 @@
   body {
     -webkit-text-size-adjust: 100%; /* Prevent iOS font scaling */
     touch-action: manipulation; /* Disable double-tap to zoom */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
   
   main {
     padding: 1rem;
     width: 95%;
     overflow-x: hidden;
+    overflow-wrap: break-word;
   }
 
   #json {
@@ -23,10 +25,29 @@
     line-height: 1.6; /* Improved readability */
     text-align: left; /* Ensure left alignment */
     width: 100%; /* Full width */
-    max-width: 600px; /* Limit max width for better readability */
-    margin: 0 auto; /* Center the text */
+    max-width: 100%; /* Limit max width for better readability */
+    margin: 0 auto; /* Centre the text */
+    white-space: normal !important; /* Override any nowrap settings */
   }
-
+  
+  /* Make sure the typed text wraps on mobile */
+  .typed-cursor, 
+  #typed,
+  .value,
+  .key,
+  .ms {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  /* Fix for the typed.js animation to work with wrapping */
+  #strings span {
+    display: none; /* Hide the original strings */
+  }
+  
   /* Specific improvements for description text */
   #description-container {
     display: flex;
@@ -44,6 +65,22 @@
     word-break: break-word;
     line-height: 1.5;
   }
+  
+  /* I need this to make long sentences fit on mobile screens */
+  .my.ms {
+    white-space: normal !important;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+  
+  /* Fix for any content that might overflow */
+  p, div, span, li, a, code, pre, .ms, .value, .key {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
+    word-break: break-word;
+  }
 }
 
 /* Improve tap target sizes on mobile */
@@ -55,5 +92,20 @@
   
   .ms {
     margin-left: 1rem; /* Slightly reduce margin on mobile */
+    white-space: normal !important;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  /* Ensure content doesn't overflow on medium-sized screens */
+  main {
+    overflow-x: hidden;
+  }
+  
+  /* Make sure all content wraps properly */
+  #json, .value, .key, p, div, span {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }

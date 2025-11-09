@@ -1,1 +1,8 @@
+# I've set up this robots.txt file to help search engines index my site properly
+# This tells all search engines they can access everything on my site
+
+User-agent: *
+Allow: /
+
+# Point to my sitemap so search engines can find all my pages
 Sitemap: https://anthropoleo.github.io/hacked-jekyll/sitemap.xml
